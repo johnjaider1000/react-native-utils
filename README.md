@@ -8,6 +8,8 @@
 
 * [Mongo Compass](https://www.mongodb.com/try/download/compass)
 
+* [Brew - Solo para Mac/IOS](https://brew.sh/index_es)
+
 * [Git](https://git-scm.com/)
 ```
 git config --global user.name "Tu nombre"
