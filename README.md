@@ -76,4 +76,4 @@ git config --global user.email "Tu correo"
 $ open -a /Applications/Android\ Studio.app
 ```
 
-* Adicionalmente a veces veremos el mensaje: ```This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project, please retry with version 2021.1.1 or newer.```, este mismo lo he solucionado dirigiendome a la pestaña File/Project Structure de Android Studio y cambiar la versión de Android Gradle Plugin Version a la 7.0.3, esto ha funcionado para mí.
+* Adicionalmente a veces veremos el mensaje: ```This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project, please retry with version 2021.1.1 or newer.```, este mismo lo he solucionado dirigiendome a la pestaña File/Project Structure de Android Studio y actualizando la versión de Android Gradle Plugin Version a la 7.0.3, esto ha funcionado para mí.
