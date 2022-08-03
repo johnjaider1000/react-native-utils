@@ -69,7 +69,8 @@ git config --global user.email "Tu correo"
 
 # Solucionar problemas de integración:
 
-* Algunas veces te encontrarás con problemas de AndroidStudio, generalmente suelo utilizar la herramienta para perfilar mi aplicación, firmala y demás, para su correcto funcionamiento a veces las apps me ha pasado que obtendrás un error con el siguiente mensaje: `React Native on Android: Cannot run program "node": error=2, No such file or directory`. Esto generalmente lo he solucionado facilmente abriendo android con el siguiente comando, aquí básicamente le damos permiso a Android Studio de acceder con un poco más de permisos y de esta manera se soluciona el problema sin liarse con más cosas:
+* Algunas veces te encontrarás con problemas de AndroidStudio, generalmente suelo utilizar la herramienta para perfilar mi aplicación, firmala y demás, Me he encontrado con algunos problemas dónde puedes obtener mensajes como:
+ `React Native on Android: Cannot run program "node": error=2, No such file or directory`. Esto generalmente lo he solucionado facilmente abriendo android con el siguiente comando, aquí básicamente le damos permiso a Android Studio de acceder con un poco más de permisos y de esta manera se soluciona el problema sin liarse con más cosas:
 
 ```bash
 $ open -a /Applications/Android\ Studio.app
