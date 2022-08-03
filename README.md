@@ -66,3 +66,11 @@ git config --global user.email "Tu correo"
 
 * [React-Native-Bootsplash](https://github.com/zoontek/react-native-bootsplash): Nos permitirá poner un splash a nuestra aplicación, si requiere ayuda con la integración ver este [vídeo](https://www.youtube.com/watch?v=PlubOKfi46o). Recordar que para IOS hay que usar el archivo `BootSplash.storyboard` y agregarlo con xcode a la lista de recursos de la aplicación, en el vídeo se explica esto de una manera clara.
 
+
+* Algunas veces te encontrarás con problemas de AndroidStudio, generalmente suelo utilizar la herramienta para perfilar mi aplicación, firmala y demás, para su correcto funcionamiento a veces las apps me ha pasado que obtendrás un error con el siguiente mensaje: `React Native on Android: Cannot run program "node": error=2, No such file or directory`. Esto generalmente lo he solucionado facilmente abriendo android con el siguiente comando, aquí básicamente le damos permiso a Android Studio de acceder con un poco más de permisos y de esta manera se soluciona el problema sin liarse con más cosas:
+
+```bash
+$ open -a /Applications/Android\ Studio.app
+```
+
+* Adicionalmente a veces veremos el mensaje: ```This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project, please retry with version 2021.1.1 or newer.```, este mismo lo he solucionado dirigiendome a la pestaña File/Project Structure de Android Studio y cambiar la versión de Android Gradle Plugin Version a la 7.0.3, esto ha funcionado para mí.
