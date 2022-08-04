@@ -66,6 +66,8 @@ git config --global user.email "Tu correo"
 
 * [React-Native-Bootsplash](https://github.com/zoontek/react-native-bootsplash): Nos permitirá poner un splash a nuestra aplicación, si requiere ayuda con la integración ver este [vídeo](https://www.youtube.com/watch?v=PlubOKfi46o). Recordar que para IOS hay que usar el archivo `BootSplash.storyboard` y agregarlo con xcode a la lista de recursos de la aplicación, en el vídeo se explica esto de una manera clara.
 
+* Otra herramienta que puedes usar para un Splash mas avanzado se explica en este [articulo](https://blog.logrocket.com/building-a-splash-screen-in-react-native/#:~:text=tutorials%20on%20GitHub.-,How%20to%20build%20a%20splash%20screen%20in%20React%20Native,depending%20on%20your%20internet%20speed.)
+
 
 # Solucionar problemas de integración:
 
