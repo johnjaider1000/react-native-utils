@@ -68,6 +68,8 @@ git config --global user.email "Tu correo"
 
 * Otra herramienta que puedes usar para un Splash mas avanzado se explica en este [articulo](https://blog.logrocket.com/building-a-splash-screen-in-react-native/#:~:text=tutorials%20on%20GitHub.-,How%20to%20build%20a%20splash%20screen%20in%20React%20Native,depending%20on%20your%20internet%20speed.)
 
+* Para la anterior herramienta este articulo me parecio muy bueno: https://blog.logrocket.com/building-a-splash-screen-in-react-native/#:~:text=tutorials%20on%20GitHub.-,How%20to%20build%20a%20splash%20screen%20in%20React%20Native,depending%20on%20your%20internet%20speed.
+
 
 # Solucionar problemas de integración:
 
