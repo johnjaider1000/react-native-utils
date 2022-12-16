@@ -62,6 +62,14 @@ git config --global user.email "Tu correo"
 #
 #
 
+# librsvg
+Mi herramienta favorita para convertir imágenes SVG a png con la resolución deseada
+```bash
+brew install librsvg
+# use:
+rsvg-convert -h 32 icon.svg > icon-32.png
+```
+
 # Librerías probadas 2022 que vas a necesitar para el desarrollo:
 
 * [React-Native-Bootsplash](https://github.com/zoontek/react-native-bootsplash): Nos permitirá poner un splash a nuestra aplicación, si requiere ayuda con la integración ver este [vídeo](https://www.youtube.com/watch?v=PlubOKfi46o). Recordar que para IOS hay que usar el archivo `BootSplash.storyboard` y agregarlo con xcode a la lista de recursos de la aplicación, en el vídeo se explica esto de una manera clara.
