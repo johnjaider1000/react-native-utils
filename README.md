@@ -91,13 +91,4 @@ A veces es posible que recibamos el siguiente error:
 
 <img width="660" alt="image" src="https://user-images.githubusercontent.com/8765273/208032799-1c4ca76c-20c8-43a8-a9cf-94a3dd086157.png">
 
-Para esto generalmente lo que hago es esto:
-Below are the instructions which I have followed to solve this issue:
-
-Homebrew install: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-watchman install: brew install watchman
-Install Ruby: followed rbenv Official Github Repo link to install the required version of ruby
-Install CocoaPods: sudo gem install cocoapods
-CocoaPods in fixed location: sudo gem install -n /usr/local/bin ffi cocoapods
-
-[Tomado de aquí](https://stackoverflow.com/questions/74189532/your-ruby-version-is-2-6-8-but-your-gemfile-specified-2-7-5)
+Para esto generalmente lo que hago es [seguir estos pasos](https://stackoverflow.com/questions/74189532/your-ruby-version-is-2-6-8-but-your-gemfile-specified-2-7-5)
